@@ -1,0 +1,2794 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 16389
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/templates/home.css HTTP/1.1" 200 26463
+"GET /login HTTP/1.1" 200 3016
+"GET /login HTTP/1.1" 200 3016
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10659
+"GET /admin/templates/procedure/ HTTP/1.1" 200 10564
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/patient/ HTTP/1.1" 200 10550
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 11804
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\riyat\OneDrive\Desktop\myhm\myhm\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\myhm\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\myhm\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/templates/doctor/ HTTP/1.1" 200 17990
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/doctor/1/change/ HTTP/1.1" 200 18416
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/patient/ HTTP/1.1" 200 12897
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/patient/1/change/ HTTP/1.1" 200 24463
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/medicalrecord/ HTTP/1.1" 200 10597
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/doctor/ HTTP/1.1" 200 17990
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /login HTTP/1.1" 200 3016
+"POST /login HTTP/1.1" 302 0
+"GET /doctorDashboard HTTP/1.1" 200 1936
+"GET /static/templates/doctorDashboard.css HTTP/1.1" 304 0
+"GET /docMedRec HTTP/1.1" 200 3735
+"GET /static/templates/docMedRec.css HTTP/1.1" 304 0
+"GET /docMedRec?search=patient HTTP/1.1" 200 3742
+"GET /docMedRec?search=5 HTTP/1.1" 200 2050
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search=mcg HTTP/1.1" 200 1763
+"GET /docMedRec?search=paitenttest5 HTTP/1.1" 200 1772
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search=Patient+Test1 HTTP/1.1" 200 1773
+"GET /docMedRec?search=PatientTest1 HTTP/1.1" 200 1772
+"GET /docMedRec?search=Patient1 HTTP/1.1" 200 2066
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /docMedRec?search=Patient1 HTTP/1.1" 200 2066
+"GET /docMedRec?search=Patient1 HTTP/1.1" 200 2066
+"GET /docMedRec?search=Patient1 HTTP/1.1" 200 2066
+"GET /docMedRec?search=Patient1 HTTP/1.1" 200 2066
+"GET /docMedRec?search=Patient1 HTTP/1.1" 200 2066
+"GET /static/templates/docMedRec.css HTTP/1.1" 200 3890
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6318
+"GET /docMedRec?search=Patient1 HTTP/1.1" 200 2066
+"GET /static/templates/docMedRec.css HTTP/1.1" 200 3890
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6318
+"GET /docMedRec?search=type+2 HTTP/1.1" 200 1766
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+Watching for file changes with StatReloader
+"GET /docMedRec?search=Migraine HTTP/1.1" 200 1768
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /docMedRec?search=Migraine HTTP/1.1" 200 1768
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6318
+"GET /docMedRec HTTP/1.1" 200 3735
+"GET /docMedRec?search=Patient2 HTTP/1.1" 200 2061
+"GET /docMedRec?search=Patient+2 HTTP/1.1" 200 1769
+"GET /docMedRec?search=Patient2 HTTP/1.1" 200 2061
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search=High+cholesterol+levels. HTTP/1.1" 200 1784
+"GET /docMedRec?search=. HTTP/1.1" 200 1761
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec HTTP/1.1" 200 3735
+"GET /docMedRec?search=Migraine+with+aura. HTTP/1.1" 200 1779
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /docMedRec HTTP/1.1" 200 3735
+"GET /docMedRec?search=Migraine HTTP/1.1" 200 1768
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search=Asthma+exacerbation. HTTP/1.1" 200 1780
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec? HTTP/1.1" 200 3735
+"GET /docMedRec?search=thyroid HTTP/1.1" 200 1767
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+"GET /docMedRec?search= HTTP/1.1" 200 3735
+Not Found: /patient_records
+"GET /patient_records HTTP/1.1" 404 6330
+Not Found: /patien-_records
+"GET /patien-_records HTTP/1.1" 404 6330
+"GET /patient-records HTTP/1.1" 301 0
+"GET /patient-records/ HTTP/1.1" 200 11459
+Internal Server Error: /patient-records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 81, in get
+    self.object_list = self.filterset.qs
+                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 246, in qs
+    qs = self.filter_queryset(qs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 229, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filters.py", line 167, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1495, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1307, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1772, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'Fname' into field. Choices are: address, allergies, blood_type, city, dob, email, emergencyContactName, emergencyContactPhone, emergencyContactRelation, id, marital_status, medical_history, phoneNo, pin_code, registration_date, sex, state, user, user_id
+"GET /patient-records/?id=&Fname=patient1&Lname=&diagnosis= HTTP/1.1" 500 133140
+"GET /patient-records/?sort=marital_status HTTP/1.1" 200 11469
+"GET /patient-records/?sort=sex HTTP/1.1" 200 11469
+"GET /patient-records/?id=&Fname=&Lname=&diagnosis= HTTP/1.1" 200 11999
+"GET /patient-records/?id=&Fname=&Lname=&diagnosis= HTTP/1.1" 200 11999
+"GET /patient-records/?id=&Fname=&Lname=&diagnosis= HTTP/1.1" 200 11999
+"GET /patient-records/?id=&Fname=&Lname=&diagnosis= HTTP/1.1" 200 11999
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /patient-records/
+"GET /patient-records/?id=&Fname=&Lname=&diagnosis= HTTP/1.1" 404 6374
+Not Found: /patient-records/
+"GET /patient-records/ HTTP/1.1" 404 6333
+"GET /patient_records/ HTTP/1.1" 200 11171
+"GET /patient_records/?search=patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=Patient1 HTTP/1.1" 200 6000
+"GET /patient_records/?search=thyroid HTTP/1.1" 200 7010
+"GET /patient_records/?search=thyroid HTTP/1.1" 200 7010
+"GET /patient_records/?search=thyroid HTTP/1.1" 200 7010
+"GET /patient_records/?search=thyroid HTTP/1.1" 200 7010
+"GET /patient_records/?search= HTTP/1.1" 200 11315
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /patient_records/?search= HTTP/1.1" 200 10928
+"GET /patient_records/?search= HTTP/1.1" 200 10928
+"GET /patient_records/?search= HTTP/1.1" 200 10928
+"GET /patient_records/?search= HTTP/1.1" 200 10928
+"GET /patient_records/?search= HTTP/1.1" 200 10928
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 81, in get
+    self.object_list = self.filterset.qs
+                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 246, in qs
+    qs = self.filter_queryset(qs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 229, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filters.py", line 834, in __call__
+    return self.method(qs, self.f.field_name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py", line 39, in filter_by_search
+    query = Q()
+            ^
+NameError: name 'Q' is not defined
+"GET /patient_records/?search=1 HTTP/1.1" 500 94368
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /patient_records/?search= HTTP/1.1" 200 10928
+"GET /patient_records/?search=1 HTTP/1.1" 200 6555
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /patient_records/?search=1 HTTP/1.1" 200 4841
+"GET /patient_records/?search=diabetes HTTP/1.1" 200 4897
+"GET /patient_records/?search= HTTP/1.1" 200 7862
+"GET /patient_records/?search=Migraine HTTP/1.1" 200 4875
+"GET /patient_records/?search=patient HTTP/1.1" 200 7927
+"GET /patient_records/?search=patient4 HTTP/1.1" 200 4198
+"GET /patient_records/?search=patient HTTP/1.1" 200 7927
+"GET /patient_records/?search=patient4 HTTP/1.1" 200 4198
+"GET /patient_records/?search=4 HTTP/1.1" 200 4821
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: doctor/patient_records.html, templates/medicalrecord_filter.html
+"GET /patient_records/?search=4 HTTP/1.1" 500 86188
+"GET /patient_records HTTP/1.1" 301 0
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: doctor/patient_records.html, templates/medicalrecord_filter.html
+"GET /patient_records/ HTTP/1.1" 500 85536
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /patient_records/ HTTP/1.1" 200 18858
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'patient5'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 74, in get
+    self.filterset = self.get_filterset(filterset_class)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 37, in get_filterset
+    kwargs = self.get_filterset_kwargs(filterset_class)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 51, in get_filterset_kwargs
+    "queryset": self.get_queryset(),
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 828, in get_queryset
+    queryset = queryset.filter(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'patient5'.
+"GET /patient_records/?search=patient5 HTTP/1.1" 500 164616
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'patient5'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 74, in get
+    self.filterset = self.get_filterset(filterset_class)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 37, in get_filterset
+    kwargs = self.get_filterset_kwargs(filterset_class)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 51, in get_filterset_kwargs
+    "queryset": self.get_queryset(),
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 828, in get_queryset
+    queryset = queryset.filter(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'patient5'.
+"GET /patient_records/?search=patient5 HTTP/1.1" 500 164753
+"GET /patient_records/?search= HTTP/1.1" 200 19074
+"GET /patient_records/?search=&sort=medical_history HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-diagnosis HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'thyroid'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 74, in get
+    self.filterset = self.get_filterset(filterset_class)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 37, in get_filterset
+    kwargs = self.get_filterset_kwargs(filterset_class)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 51, in get_filterset_kwargs
+    "queryset": self.get_queryset(),
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 828, in get_queryset
+    queryset = queryset.filter(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'thyroid'.
+"GET /patient_records/?search=thyroid HTTP/1.1" 500 164586
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'thyroid'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 74, in get
+    self.filterset = self.get_filterset(filterset_class)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 37, in get_filterset
+    kwargs = self.get_filterset_kwargs(filterset_class)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 51, in get_filterset_kwargs
+    "queryset": self.get_queryset(),
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 829, in get_queryset
+    queryset = queryset.filter(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'thyroid'.
+"GET /patient_records/?search=thyroid HTTP/1.1" 500 163923
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search=&sort=-treatment_plan HTTP/1.1" 200 19089
+"GET /patient_records/?search HTTP/1.1" 200 19074
+Watching for file changes with StatReloader
+"GET /patient_records/?search HTTP/1.1" 200 19074
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'patient'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 74, in get
+    self.filterset = self.get_filterset(filterset_class)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 37, in get_filterset
+    kwargs = self.get_filterset_kwargs(filterset_class)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 51, in get_filterset_kwargs
+    "queryset": self.get_queryset(),
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 829, in get_queryset
+    queryset = queryset.filter(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'patient'.
+"GET /patient_records/?search=patient HTTP/1.1" 500 163760
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'patient'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 74, in get
+    self.filterset = self.get_filterset(filterset_class)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 37, in get_filterset
+    kwargs = self.get_filterset_kwargs(filterset_class)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 51, in get_filterset_kwargs
+    "queryset": self.get_queryset(),
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 829, in get_queryset
+    queryset = queryset.filter(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'patient'.
+"GET /patient_records/?search=patient HTTP/1.1" 500 163897
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'type 2'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 74, in get
+    self.filterset = self.get_filterset(filterset_class)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 37, in get_filterset
+    kwargs = self.get_filterset_kwargs(filterset_class)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 51, in get_filterset_kwargs
+    "queryset": self.get_queryset(),
+                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 829, in get_queryset
+    queryset = queryset.filter(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'type 2'.
+"GET /patient_records/?search=type+2 HTTP/1.1" 500 163507
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /patient_records/?search HTTP/1.1" 200 19316
+"GET /patient_records/?search HTTP/1.1" 200 19316
+"GET /patient_records/?search HTTP/1.1" 200 19316
+"GET /patient_records/?search=2 HTTP/1.1" 200 12921
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'patient'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 81, in get
+    self.object_list = self.filterset.qs
+                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 246, in qs
+    qs = self.filter_queryset(qs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 229, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filters.py", line 834, in __call__
+    return self.method(qs, self.f.field_name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py", line 70, in filter_by_search
+    queryset = queryset.filter(query)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'patient'.
+"GET /patient_records/?search=patient HTTP/1.1" 500 168206
+"GET /patient_records/?search=100 HTTP/1.1" 200 8643
+"GET /patient_records/?search= HTTP/1.1" 200 19316
+"GET /patient_records/?search=5 HTTP/1.1" 200 12858
+Internal Server Error: /patient_records/
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2117, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'patient5'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\views.py", line 81, in get
+    self.object_list = self.filterset.qs
+                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 246, in qs
+    qs = self.filter_queryset(qs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filterset.py", line 229, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django_filters\filters.py", line 834, in __call__
+    return self.method(qs, self.f.field_name, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py", line 70, in filter_by_search
+    queryset = queryset.filter(query)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1472, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1559, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\sql\query.py", line 1389, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 364, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\fields\__init__.py", line 2119, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'patient5'.
+"GET /patient_records/?search=patient5 HTTP/1.1" 500 168270
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /patient_records/?search=patient5 HTTP/1.1" 200 8748
+"GET /patient_records/?search=patient5 HTTP/1.1" 200 8748
+"GET /patient_records/?search=5 HTTP/1.1" 200 12858
+"GET /patient_records/?search=patient HTTP/1.1" 200 19481
+"GET /patient_records/?search=Diabetes HTTP/1.1" 200 10856
+"GET /patient_records/?search= HTTP/1.1" 200 19316
+"GET /patient_records/?search=High+cholesterol+levels HTTP/1.1" 200 11012
+"GET /patient_records/?search=cholesterol+ HTTP/1.1" 200 10781
+"GET /patient_records/?search=cholesterol+ HTTP/1.1" 200 10781
+"GET /patient_records/?search=4 HTTP/1.1" 200 12717
+"GET /patient_records/?search=2 HTTP/1.1" 200 12921
+"GET /patient_records/?search=1 HTTP/1.1" 200 10709
+"GET /patient_records/?search=5 HTTP/1.1" 200 12858
+"GET /patient_records/?search=patient5 HTTP/1.1" 200 8748
+"GET /patient_records/?search=patient5&sort=patient_name HTTP/1.1" 200 8763
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /patient_records/?search=patient5&sort=patient_name HTTP/1.1" 200 8763
+"GET /patient_records/?search=patient5&sort=patient_name HTTP/1.1" 200 8763
+"GET /patient_records/?search=patient5&sort=patient_name HTTP/1.1" 200 8763
+"GET /patient_records/?search=patient5&sort=patient_name HTTP/1.1" 200 8763
+"GET /patient_records/ HTTP/1.1" 200 19100
+"GET /patient_records/?search=Diabetes HTTP/1.1" 200 10856
+"GET /patient_records/?search= HTTP/1.1" 200 19316
+"GET /patient_records/?search=patient HTTP/1.1" 200 19481
+"GET /patient_records/?search=patient HTTP/1.1" 200 19481
+"GET /patient_records/?search=patient3 HTTP/1.1" 200 8748
+"GET /patient_records/?search=patient2 HTTP/1.1" 200 8748
+"GET /patient_records/?search=2 HTTP/1.1" 200 12921
+"GET /patient_records/?search=3 HTTP/1.1" 200 12762
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3680
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10659
+"GET /admin/templates/doctor/ HTTP/1.1" 200 17990
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/doctor/1/change/ HTTP/1.1" 200 18416
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/patient/ HTTP/1.1" 200 12897
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/patient/1/change/ HTTP/1.1" 200 24463
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21070
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/2/change/ HTTP/1.1" 200 27337
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/medicalrecord/ HTTP/1.1" 200 13318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/medicalrecord/1/change/ HTTP/1.1" 200 20743
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Forbidden (CSRF token from POST incorrect.): /logout/
+"POST /logout/ HTTP/1.1" 403 2517
+Forbidden (CSRF token from POST incorrect.): /logout/
+"POST /logout/ HTTP/1.1" 403 2517
+"POST /admin/logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 25304
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /login HTTP/1.1" 200 3016
+"POST /login HTTP/1.1" 302 0
+"GET /doctorDashboard HTTP/1.1" 200 1936
+"GET /patient_records/ HTTP/1.1" 200 19100
+"GET /patient_records/?search=test3 HTTP/1.1" 200 10634
+"GET /patient_records/?search=test5 HTTP/1.1" 200 10775
+"GET /patient_records/?search=patient HTTP/1.1" 200 19481
+"GET /patient_records/?search=Diabetes HTTP/1.1" 200 10856
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3680
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10659
+"GET /admin/templates/dept/ HTTP/1.1" 200 13703
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/templates/medicalrecord/ HTTP/1.1" 200 13318
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/medicalrecord/add/ HTTP/1.1" 200 20252
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/templates/medicalrecord/add/ HTTP/1.1" 302 0
+"GET /admin/templates/medicalrecord/ HTTP/1.1" 200 13910
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /login HTTP/1.1" 200 3016
+"POST /login HTTP/1.1" 200 3176
+"POST /login HTTP/1.1" 302 0
+"GET /patientDashboard HTTP/1.1" 200 217
+"GET /login HTTP/1.1" 200 3016
+"POST /login HTTP/1.1" 302 0
+Internal Server Error: /doctorDashboard
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 71, in doctorDashboard
+    return render(request, 'templates/doctorDashboard.html', {'doctor': doctor})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'docMedRec' not found. 'docMedRec' is not a valid view function or pattern name.
+"GET /doctorDashboard HTTP/1.1" 500 123985
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /doctorDashboard
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py", line 71, in doctorDashboard
+    return render(request, 'templates/doctorDashboard.html', {'doctor': doctor})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'docMedRec' not found. 'docMedRec' is not a valid view function or pattern name.
+"GET /doctorDashboard HTTP/1.1" 500 123985
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /doctorDashboard HTTP/1.1" 200 1934
+Internal Server Error: /docMedRec
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 110: 'static'. Did you forget to register or load this tag?
+"GET /docMedRec HTTP/1.1" 500 157623
+Internal Server Error: /docMedRec
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 110: 'static'. Did you forget to register or load this tag?
+"GET /docMedRec HTTP/1.1" 500 157772
+Internal Server Error: /docMedRec
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 110: 'static'. Did you forget to register or load this tag?
+"GET /docMedRec HTTP/1.1" 500 157772
+Internal Server Error: /docMedRec
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\riyat\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 110: 'static'. Did you forget to register or load this tag?
+"GET /docMedRec HTTP/1.1" 500 157772
+"GET /docMedRec HTTP/1.1" 200 28871
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1600
+"GET /docMedRec?search=Diabetes HTTP/1.1" 200 15611
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /patient_records/
+"GET /patient_records/?search=3 HTTP/1.1" 404 6155
+Not Found: /patient_records/
+"GET /patient_records/?search=3 HTTP/1.1" 404 6155
+Not Found: /patient_records/
+"GET /patient_records/?search=3 HTTP/1.1" 404 6155
+Not Found: /patient_records/
+"GET /patient_records/?search=3 HTTP/1.1" 404 6155
+Not Found: /patient_records/
+"GET /patient_records/?search=patient2 HTTP/1.1" 404 6162
+"GET /docMedRec HTTP/1.1" 200 14381
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec?search=none HTTP/1.1" 200 14799
+"GET /docMedRec?search=none HTTP/1.1" 200 14799
+"GET /docMedRec?search=test2 HTTP/1.1" 200 12717
+"GET /docMedRec?search=test2 HTTP/1.1" 200 10793
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec?search= HTTP/1.1" 200 14660
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 25304
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25416
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/logo.png HTTP/1.1" 200 18614
+"GET / HTTP/1.1" 200 25416
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25416
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25416
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25466
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25466
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25467
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25465
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25465
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25465
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25465
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/templates/home.css HTTP/1.1" 200 26463
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/img1.jpg HTTP/1.1" 200 3244594
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET / HTTP/1.1" 200 25465
+"GET /static/templates/home.css HTTP/1.1" 200 26463
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/img1.jpg HTTP/1.1" 200 3244594
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET / HTTP/1.1" 200 25464
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25465
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25465
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25526
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25529
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25529
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25528
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25547
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25547
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25547
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25547
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25547
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25547
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 25547
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/templates/dept_details.css HTTP/1.1" 200 5949
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+Not Found: /patient_records/
+"GET /patient_records/?search=patient2 HTTP/1.1" 404 6162
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 200 5949
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 103956
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/templates/dept_details.css HTTP/1.1" 200 5949
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 103956
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/1/ HTTP/1.1" 200 7459
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 200 5949
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 372179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 247034
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6283
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 247034
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6183
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6183
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 200 5949
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /department/1/ HTTP/1.1" 200 7446
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7474
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 7448
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11089
+"GET /admin/templates/doctor/ HTTP/1.1" 200 17990
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/doctor/24/change/ HTTP/1.1" 200 18421
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21070
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/35/change/ HTTP/1.1" 200 27339
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21070
+"GET /admin/templates/dept/ HTTP/1.1" 200 13703
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/dept/8/change/ HTTP/1.1" 200 15551
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+"GET /admin/templates/dept/ HTTP/1.1" 200 13703
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/dept/1/change/ HTTP/1.1" 200 15561
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 23262
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/templates/customuser/ HTTP/1.1" 200 11620
+"POST /admin/templates/customuser/ HTTP/1.1" 302 0
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21205
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/doctor/ HTTP/1.1" 200 17990
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /docMedRec?search=thyroid HTTP/1.1" 200 10837
+"GET /docMedRec? HTTP/1.1" 200 10449
+"GET /docMedRec?search=Asthma+exacerbation. HTTP/1.1" 200 11123
+"GET /docMedRec?search= HTTP/1.1" 200 10665
+"GET /docMedRec?search=Migraine HTTP/1.1" 200 10859
+"GET /docMedRec HTTP/1.1" 200 10449
+"GET /docMedRec?search=Migraine+with+aura. HTTP/1.1" 200 11101
+"GET /docMedRec?search=. HTTP/1.1" 200 10705
+"GET /docMedRec?search=High+cholesterol+levels. HTTP/1.1" 200 11211
+"GET /docMedRec?search=Patient2 HTTP/1.1" 200 10859
+"GET / HTTP/1.1" 200 26031
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/templates/home.css HTTP/1.1" 200 26463
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/img1.jpg HTTP/1.1" 200 3244594
+"GET /department/1/ HTTP/1.1" 200 12233
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /bookAnAppointment HTTP/1.1" 200 7017
+"GET /static/templates/bookAnAppointment.css HTTP/1.1" 304 0
+"GET /get_available_times/?doctor_id=50&date=2024-11-01 HTTP/1.1" 200 84
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 26031
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/1/ HTTP/1.1" 200 11673
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 11673
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET /department/5/ HTTP/1.1" 200 8012
+"GET /department/1/ HTTP/1.1" 200 11673
+"GET /department/1/ HTTP/1.1" 200 10750
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /department/1/ HTTP/1.1" 200 10750
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /department/1/ HTTP/1.1" 200 14174
+"GET /admin/templates/doctor/ HTTP/1.1" 200 20690
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/templates/doctor/ HTTP/1.1" 200 11887
+"POST /admin/templates/doctor/ HTTP/1.1" 302 0
+"GET /admin/templates/doctor/ HTTP/1.1" 200 18128
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 23810
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/templates/customuser/ HTTP/1.1" 200 11909
+"POST /admin/templates/customuser/ HTTP/1.1" 302 0
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21206
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET / HTTP/1.1" 200 26031
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET / HTTP/1.1" 200 26183
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26183
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26183
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26183
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26183
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/templates/home.css HTTP/1.1" 200 26463
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/img1.jpg HTTP/1.1" 200 3244594
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET / HTTP/1.1" 200 26183
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/templates/home.css HTTP/1.1" 200 26463
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /static/images/img1.jpg HTTP/1.1" 200 3244594
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET / HTTP/1.1" 200 26399
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/templates/home.css HTTP/1.1" 200 26489
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/img1.jpg HTTP/1.1" 200 3244594
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET / HTTP/1.1" 200 26543
+"GET /static/templates/home.css HTTP/1.1" 200 26489
+"GET /static/images/Orthopaedics.png HTTP/1.1" 404 1828
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET /static/images/Paediatrics.png HTTP/1.1" 404 1825
+"GET / HTTP/1.1" 200 26543
+"GET /static/templates/home.css HTTP/1.1" 304 0
+"GET /static/images/Orthopaedics.png HTTP/1.1" 200 15475
+"GET /static/images/Paediatrics.png HTTP/1.1" 200 15487
+"GET /static/images/Neurosurgery.png HTTP/1.1" 404 1828
+"GET / HTTP/1.1" 200 26543
+"GET /static/templates/home.css HTTP/1.1" 304 0
+"GET /static/images/Neurosurgery.png HTTP/1.1" 200 58157
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/Neurosurgery.png HTTP/1.1" 304 0
+"GET /static/templates/home.css HTTP/1.1" 200 26520
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26059
+"GET /static/templates/home.css HTTP/1.1" 304 0
+"GET /registerAsPatient HTTP/1.1" 200 5930
+"GET /static/templates/registerAsPatient.css HTTP/1.1" 200 1372
+"GET /registerAsPatient HTTP/1.1" 200 5682
+"GET /static/templates/home.css HTTP/1.1" 304 0
+"GET /login HTTP/1.1" 200 3016
+"POST /login HTTP/1.1" 302 0
+"GET /doctorDashboard HTTP/1.1" 200 2168
+"GET /docMedRec HTTP/1.1" 200 26600
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec HTTP/1.1" 200 26654
+"GET /docMedRec HTTP/1.1" 200 26654
+"GET /docMedRec HTTP/1.1" 200 26654
+"GET /docMedRec HTTP/1.1" 200 26644
+"GET /docMedRec HTTP/1.1" 200 26644
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1600
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /docMedRec HTTP/1.1" 200 26645
+"GET /docMedRec HTTP/1.1" 200 26680
+"GET /docMedRec HTTP/1.1" 200 26694
+"GET /docMedRec HTTP/1.1" 200 26693
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 26059
+"GET /static/templates/home.css HTTP/1.1" 304 0
+"GET /static/images/Neurosurgery.png HTTP/1.1" 304 0
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/Radiology.png HTTP/1.1" 200 11487
+"GET /static/images/img1.jpg HTTP/1.1" 200 3244594
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/Cardiology.png HTTP/1.1" 200 15086
+"GET /static/images/General%20Surgery.png HTTP/1.1" 200 16210
+"GET /static/images/Lab%20Tests.png HTTP/1.1" 200 33845
+"GET /static/images/Dermatology.png HTTP/1.1" 200 13132
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3680
+- Broken pipe from ('127.0.0.1', 55936)
+- Broken pipe from ('127.0.0.1', 55937)
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 13732
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21070
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/add/ HTTP/1.1" 200 26970
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/add/ HTTP/1.1" 200 17652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21070
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/35/change/ HTTP/1.1" 200 27339
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 26543
+"GET /static/images/logo.png HTTP/1.1" 304 0
+"GET /static/images/inss.png HTTP/1.1" 304 0
+"GET /static/templates/home.css HTTP/1.1" 304 0
+"GET /static/images/Neurosurgery.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26059
+"GET /registerAsPatient HTTP/1.1" 200 5682
+"GET /registerAsPatient HTTP/1.1" 200 5692
+"GET /registerAsPatient HTTP/1.1" 200 5692
+"GET /registerAsPatient HTTP/1.1" 200 5692
+"GET /static/templates/registerAsPatient.css HTTP/1.1" 200 1397
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"POST /registerAsPatient HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26072
+"GET /login HTTP/1.1" 200 3191
+"GET /static/templates/login.css HTTP/1.1" 304 0
+"POST /login HTTP/1.1" 302 0
+"GET /patientDashboard HTTP/1.1" 200 4229
+"GET /static/templates/patientDashboard.css HTTP/1.1" 200 7449
+"GET /medicalRecord HTTP/1.1" 200 3614
+"GET /static/templates/medicalRecord.css HTTP/1.1" 200 5165
+"GET /medicalRecord HTTP/1.1" 200 3614
+"GET /department/1/ HTTP/1.1" 200 7644
+"GET /static/templates/dept_details.css HTTP/1.1" 304 0
+"GET /static/images/dept_bgimg.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 26556
+"GET /medicalRecord HTTP/1.1" 200 3614
+"GET / HTTP/1.1" 200 26556
+"GET /department/2/ HTTP/1.1" 200 7634
+"GET /bookAnAppointment HTTP/1.1" 200 6617
+"GET /static/templates/bookAnAppointment.css HTTP/1.1" 304 0
+"GET /get_available_times/?doctor_id=14&date=2024-11-04 HTTP/1.1" 200 84
+"GET /get_available_times/?doctor_id=14&date=2024-11-05 HTTP/1.1" 200 84
+"POST /bookAnAppointment HTTP/1.1" 302 0
+"GET /appointment_success HTTP/1.1" 200 405
+"GET /static/templates/appointment_success.css HTTP/1.1" 200 639
+"GET / HTTP/1.1" 200 26556
+"GET /bookAnAppointment HTTP/1.1" 200 6617
+"GET /get_available_times/?doctor_id=12&date=2024-11-05 HTTP/1.1" 200 84
+"POST /bookAnAppointment HTTP/1.1" 302 0
+"GET /appointment_success HTTP/1.1" 200 405
+"GET / HTTP/1.1" 200 26556
+"GET /bookAnAppointment HTTP/1.1" 200 6617
+"GET /get_available_times/?doctor_id=12&date=2024-11-04 HTTP/1.1" 200 84
+"GET /get_available_times/?doctor_id=12&date=2024-11-05 HTTP/1.1" 200 75
+"POST /bookAnAppointment HTTP/1.1" 302 0
+"GET /appointment_success HTTP/1.1" 200 405
+"GET / HTTP/1.1" 200 26556
+"GET /medicalRecord HTTP/1.1" 200 3614
+"GET /department/3/ HTTP/1.1" 200 7659
+"GET /patientDashboard HTTP/1.1" 200 4229
+"GET /bookAnAppointment HTTP/1.1" 200 6617
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26072
+"GET /login HTTP/1.1" 200 3026
+"POST /login HTTP/1.1" 302 0
+"GET /doctorDashboard HTTP/1.1" 200 2168
+"GET /static/templates/doctorDashboard.css HTTP/1.1" 304 0
+"GET /docApp/ HTTP/1.1" 200 1882
+"GET /static/templates/docApp.css HTTP/1.1" 304 0
+"GET /docApp/?date=2024-11-05 HTTP/1.1" 200 2380
+"GET /docApp/ HTTP/1.1" 200 1882
+"GET /docMedRec HTTP/1.1" 200 26693
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1600
+"GET /docMedRec?search=test2 HTTP/1.1" 200 15599
+"GET /docMedRec?search=patient HTTP/1.1" 200 27195
+"GET /docMedRec?search=exacerbation HTTP/1.1" 200 15735
+"GET /doctorDashboard HTTP/1.1" 200 2168
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26072
+"GET /login HTTP/1.1" 200 3026
+"POST /login HTTP/1.1" 302 0
+"GET /staffDashboard HTTP/1.1" 200 1449
+"GET /static/templates/staffDashboard.css HTTP/1.1" 304 0
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26072
+Not Found: /patient_appointment
+"GET /patient_appointment HTTP/1.1" 404 6155
+"GET /login HTTP/1.1" 200 3026
+"POST /login HTTP/1.1" 302 0
+"GET /patientDashboard HTTP/1.1" 200 4229
+"GET /patientAppointments HTTP/1.1" 200 633
+"GET /static/templates/patientAppointments.css HTTP/1.1" 200 1726
+"GET / HTTP/1.1" 200 26556
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 26072
+"GET /department/7/ HTTP/1.1" 200 7444
+"GET /department/7/ HTTP/1.1" 200 7444
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/7/ HTTP/1.1" 200 7444
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/7/ HTTP/1.1" 200 7444
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/7/ HTTP/1.1" 200 7444
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/7/ HTTP/1.1" 200 7444
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/7/ HTTP/1.1" 200 7442
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /department/7/ HTTP/1.1" 200 7418
+"GET /static/images/logo.png HTTP/1.1" 200 17577
+"GET /static/images/inss.png HTTP/1.1" 200 25334
+"GET /static/templates/dept_details.css HTTP/1.1" 200 6066
+"GET /static/images/dept_bgimg.png HTTP/1.1" 200 290107
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6131
+"GET /bookAnAppointment HTTP/1.1" 302 0
+"GET /login?next=/bookAnAppointment HTTP/1.1" 200 3026
+"POST /login HTTP/1.1" 302 0
+"GET /patientDashboard HTTP/1.1" 200 4229
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3676
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 13732
+"GET /admin/auth/group/add/ HTTP/1.1" 200 17652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/ HTTP/1.1" 200 13732
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /login HTTP/1.1" 200 3026
+"POST /login HTTP/1.1" 302 0
+"GET /doctorDashboard HTTP/1.1" 200 2168
+"GET /docApp/ HTTP/1.1" 200 1882
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /docMedRec HTTP/1.1" 200 26693
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\filters.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\tables.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /docMedRec?sort=treatment_plan HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"GET /docMedRec?sort=prescription HTTP/1.1" 200 7605
+"GET /static/templates/patient_records.css HTTP/1.1" 200 1517
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 5183
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13158
+"GET /registerAsPatient HTTP/1.1" 200 5692
+"GET /static/templates/registerAsPatient.css HTTP/1.1" 304 0
+"GET /login HTTP/1.1" 200 1856
+"POST /login HTTP/1.1" 302 0
+"GET /patientDashboard HTTP/1.1" 200 4229
+"GET /medicalRecord HTTP/1.1" 200 3378
+"GET /department/1/ HTTP/1.1" 200 7363
+"GET /bookAnAppointment HTTP/1.1" 200 4268
+"GET /get_available_times?doctor_id=15&date=2024-11-04 HTTP/1.1" 200 84
+"GET /bookAnAppointment HTTP/1.1" 200 4268
+"GET /get_available_times?doctor_id=12&date=2024-11-04 HTTP/1.1" 200 84
+"POST /bookAnAppointment HTTP/1.1" 302 0
+"GET /appointment_success HTTP/1.1" 200 405
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13158
+"GET /login HTTP/1.1" 200 1856
+"POST /login HTTP/1.1" 302 0
+"GET /doctorDashboard HTTP/1.1" 200 2168
+"GET /docMedRec HTTP/1.1" 200 7600
+"GET /static/templates/patient_records.css HTTP/1.1" 304 0
+"GET /docApp/ HTTP/1.1" 200 2045
+"POST /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13158
+"GET /login HTTP/1.1" 200 1856
+"POST /login HTTP/1.1" 302 0
+"GET /staffDashboard HTTP/1.1" 200 1459
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 13732
+"GET /admin/auth/group/ HTTP/1.1" 200 10869
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/add/ HTTP/1.1" 200 17652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 12324
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/add/ HTTP/1.1" 200 17652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 12611
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/add/ HTTP/1.1" 200 17652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 12892
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/add/ HTTP/1.1" 200 17652
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 13166
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21334
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/add/ HTTP/1.1" 200 27150
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 12963
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/add/ HTTP/1.1" 200 27150
+"POST /admin/templates/customuser/add/ HTTP/1.1" 302 0
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21814
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13158
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4322
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4322
+- Broken pipe from ('127.0.0.1', 60597)
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4321
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4321
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 13956
+"GET /admin/templates/customuser/55/change/ HTTP/1.1" 200 27463
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/ HTTP/1.1" 200 13956
+"POST /admin/logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13158
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4322
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 13956
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21608
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/16/change/ HTTP/1.1" 200 27514
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21608
+"GET /admin/templates/customuser/55/change/ HTTP/1.1" 200 27463
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/templates/customuser/55/change/ HTTP/1.1" 302 0
+"GET /admin/templates/customuser/ HTTP/1.1" 200 21816
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/ HTTP/1.1" 200 14009
+"POST /admin/logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13158
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9153
+"GET /admin/templates/equipments/ HTTP/1.1" 200 9211
+"GET /admin/ HTTP/1.1" 200 9153
+"GET /admin/templates/doctor/ HTTP/1.1" 200 11811
+"GET /admin/templates/billing/ HTTP/1.1" 200 9357
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/templates/appointment/ HTTP/1.1" 200 11919
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 13158
+"GET /login HTTP/1.1" 200 1856
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\riyat\OneDrive\Desktop\myhm\templates\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

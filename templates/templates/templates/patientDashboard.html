@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../static/templates/patientDashboard.css">
+</head>
+<body>
+    <header>
+        <container style="display: flex; align-items: center;">
+            <img src="../../static/images/logo.png" alt="XYZ Hospital Logo" width="150" style="margin-left: 10px;">
+            <h1 class="hname" style="margin: 0;margin-left: -30px;color: white;">XYZ</h1>
+        </container>
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" style="text-decoration: none;">Logout</button>
+        </form>
+    </header>
+    <div class="nav" style="justify-content:space-between ;">
+        <ul>
+            <a href="{% url 'main-home' %}" style="text-decoration: none;">  
+                <li>Home</li>
+            </a>
+        
+            <a href="{% url 'medicalRecord' %}" style="text-decoration: none;">  
+                <li>Medical Record</li>
+            </a>
+        
+            <li>
+                <a href="#" style="text-decoration: none;color: white">Specialities</a>
+                <ul class="dropdown">
+                    {% for department in departments %}
+                        <li><a href="{% url 'dept_detail' department.pk %}">{{ department.dept_name }}</a></li>
+                    {% empty %}
+                        <li>No departments available.</li>
+                    {% endfor %}
+                </ul>
+            </li>
+    
+        
+            <a href="{% url 'main-home' %}#aboutUs" style="text-decoration: none;">  
+                <li>About Us</li>
+            </a>
+        
+            <a href="{% url 'main-home' %}#contactUs" style="text-decoration: none;">  
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        <!-- <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form> -->
+        <img src="../../static/images/inss.png" alt="Heatlh First" width="200px">
+    </div>
+    <div class="patient-card">
+        <h2>Patient Dashboard</h2>
+        <div class="patient-details">
+            <p><strong>First Name:</strong> {{ patient.user.first_name }}</p> 
+            <p><strong>Last Name:</strong> {{ patient.user.last_name }}</p>  
+            <!-- <p><strong>Patient ID:</strong> {{ patient.id }}</p> -->
+            <p><strong>Date of Birth:</strong> {{ patient.dob }}</p> 
+            <p><strong>Sex:</strong> {{ patient.sex }}</p>
+            <p><strong>Blood Type:</strong> {{ patient.blood_type }}</p>
+            <p><strong>City:</strong> {{ patient.city }}</p>
+            <p><strong>Pincode:</strong> {{ patient.pin_code }}</p>  
+            <p><strong>Phone Number:</strong> {{ patient.phoneNo }}</p>  
+            <p><strong>Email:</strong> {{ patient.email }}</p>
+            <p><strong>Allergies:</strong> {{ patient.allergies }}</p>
+        </div>
+
+        
+<container class="button-group">
+    <button class="btn-history" onclick="location.href='{% url 'medicalRecord' %}'">Medical Records</button>
+    <button class="btn-book" onclick="location.href='{% url 'bookAnAppointment' %}'">Book An Appointment</button>
+</container>
+
+       
+    </div>
+</body>
+</html>

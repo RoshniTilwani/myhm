@@ -1,0 +1,39 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../../static/templates/staffDashboard.css">
+</head>
+<body>
+
+    <header>
+        <container style="display: flex; align-items: center;">
+            <img src="../../static/images/logo.png" alt="XYZ Hospital Logo" width="150" style="margin-left: 10px;">
+            <h1 class="hname" style="margin: 0;margin-left: -30px;">XYZ</h1>
+        </container>
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" style="text-decoration: none;">Logout</button>
+        </form>
+    </header>
+    
+    <div class="staff-card">
+        <h2>Staff Dashboard</h2>
+        <div class="staff-details">
+            <p><strong>First Name:</strong> {{ staff.user.first_name }}</p>
+            <p><strong>Last Name:</strong> {{ staff.user.last_name }}</p>
+            <p><strong>Role:</strong> {{ staff.staff_role }}</p>
+            <p><strong>Department:</strong> {{ staff.dept.name }}</p>
+            <p><strong>Salary:</strong> ₹{{ staff.salary }}</p>
+            <p><strong>Phone:</strong> {{ staff.phoneNo }}</p>
+            <p><strong>Email:</strong> {{ staff.email }}</p>
+            <p><strong>Address:</strong> {{ staff.address }}</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

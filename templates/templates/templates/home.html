@@ -1,0 +1,232 @@
+ <!--  -->
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../static/templates/home.css">
+</head>
+<body>
+    <header>
+        <container style="display: flex; align-items: center;">
+            <img src="../../static/images/logo.png" alt="XYZ Hospital Logo" width="150" style="margin-left: 10px;">
+            <h1 class="hname" style="margin: 0;margin-left: -30px;">XYZ</h1>
+        </container>
+        <div class="auth-buttons">
+            {% if user.is_authenticated and user.user_type == 'patient' %}
+                <button class="profile-btn" >
+                    <a href="{% url 'patientDashboard' %}" style="text-decoration: none;color:white">
+                        <i class="fa fa-user"></i> Profile
+                    </a>
+                </button>
+                <form action="{% url 'logout' %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit" style="text-decoration: none;">Logout</button>
+                </form>
+            {% else %}
+                <button class="login-btn">
+                    <a href="{% url 'login' %}" style="text-decoration: none;">Login</a>
+                </button>
+                <button class="signup-btn">
+                    <a href="{% url 'registerAsPatient' %}" style="text-decoration: none;">Sign Up</a>
+                </button>
+            {% endif %}
+        </div>
+        <div class="top">
+            <div class="top1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+                <p>Katni(M.P.)</p>
+            </div>
+            <div class="top2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                </svg>
+                <p>123456789</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav" style="justify-content: space-between;">
+        <ul>
+            <a href="{% url 'main-home' %}" style="text-decoration: none;">  
+                <li>Home</li>
+            </a>
+        
+            <a href="{% url 'medicalRecord' %}" style="text-decoration: none;">  
+                <li>Medical Record</li>
+            </a>
+        
+            
+        <li style="position: relative;">
+            <a href="#" style="text-decoration: none; color: white;">Specialities</a>
+            <ul class="dropdown">
+                {% for department in departments %}
+                    <li>
+                        <a href="{% url 'dept_detail' department.pk %}" style="text-decoration: none; color: black; padding: 5px 10px; display: block;">
+                            {{ department.dept_name }}
+                        </a>
+                    </li>
+                {% empty %}
+                    <li style="color: white; padding: 5px 10px;">No departments available.</li>
+                {% endfor %}
+            </ul>
+        </li>
+        
+            <a href="{% url 'main-home' %}#aboutUs" style="text-decoration: none;">  
+                <li>About Us</li>
+            </a>
+        
+            <a href="{% url 'main-home' %}#contactUs" style="text-decoration: none;">  
+                <li>Contact Us</li>
+            </a>
+        </ul>
+       
+        <img src="../../static/images/inss.png" alt="Heatlh First" width="200px">
+    </div>
+
+    <div class="intro">
+        <p class="inImg">Healthcare for Good Today. Tomorrow. Always</p>
+    </div>
+    
+    <container id="welcome">
+        <container class="about-us">
+            <h3>Welcome to XYZ Hospital</h3>
+            <p>XYZ Hospitals mission is to create an environment that enables the highest level of quality private healthcare and to maximize investment potential in partnership with strategic service providers and patient-focused employees within communities of confidence.</p>
+        </container>
+        
+        <div class="groupBlock">
+            <div class="block">
+                <a href="{% url 'bookAnAppointment' %}" style="text-decoration: none;">
+                    <div>
+                        <h4>Book An Appointment</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="block">
+                <a href="{% url 'main-home' %}#centres" style="text-decoration: none;">
+                    <div>
+                        <h4>Specialities</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="block">
+                <a href="{% url 'medicalRecord' %}" style="text-decoration: none;">
+                    <div>
+                        <h4>Health Records</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </container>
+
+    <h3>Explore our Centres of Clinical Excellence</h3>
+   
+  <div class="centres" id="centres">
+    {% for department in departments %}
+        <container class="department-card"> 
+            <a href="{% url 'dept_detail' department.pk %}" , style="text-decoration: none;">
+              
+<img src="../../static/images/{{ department.dept_name }}.png" alt="{{ department.dept_name }}" style="margin-left: -10px;margin-top: -20px;">
+                
+                <container>
+
+                    <h6>{{ department.dept_name }}</h6>
+                </container>
+            </a>
+        </container>
+    {% empty %}
+        <div>
+            <h6>No departments available.</h6>
+        </div>
+    {% endfor %}
+</div>
+
+    
+
+    <container id="aboutUs">
+        <h3>About XYZ Healthcare</h3>
+        <p>Established by Dr ABC in 1983, XYZ Healthcare has a robust presence across the healthcare ecosystem. From routine wellness & preventive health care to innovative life-saving treatments and diagnostic services, Apollo Hospitals has touched more than 2 crore lives.</p>
+        
+        <div class="statistics">
+            <div class="stat">
+                <i class="fa fa-hospital-o"></i>
+                <h4>73+</h4>
+                <p>Largest private healthcare network of Hospitals</p>
+            </div>
+            <div class="stat">
+                <i class="fa fa-stethoscope"></i>
+                <h4>2,300+</h4>
+                <p>Diagnostic centres across India</p>
+            </div>
+            <div class="stat">
+                <i class="fa fa-archive"></i>
+                <h4>6,000+</h4>
+                <p>Pharmacies</p>
+            </div>
+            <div class="stat">
+                <i class="fa fa-map-marker"></i>
+                <h4>10,000+</h4>
+                <p>Pin codes served across India</p>
+            </div>
+            <div class="stat">
+                <i class="fa fa-user-md"></i>
+                <h4>11,000+</h4>
+                <p>Doctors</p>
+            </div>
+            <div class="stat">
+                <i class="fa fa-bed"></i>
+                <h4>10,000+</h4>
+                <p>Beds</p>
+            </div>
+        </div>
+    </container>
+    
+    <footer>
+        <container id="contactUs">
+            <div class="footer-container">
+                <div class="footer-item location">
+                    <h4>Our Location</h4>
+                    <p>XYZ Hospital, Katni M.P.</p>
+                    <p>Call Us +91 123456789</p>
+                    <p>info@xyzhospitalkatni.com</p>
+                </div>
+                <div class="footer-item quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <a href="{% url 'main-home' %}" style="text-decoration: none;">  
+                            <li>Home</li>
+                        </a>
+                        <a href="{% url 'medicalRecord' %}" style="text-decoration: none;">  
+                            <li>Medical Record</li>
+                        </a>
+                        <a href="{% url 'main-home' %}#centres" style="text-decoration: none;">  
+                            <li>Specialities</li>
+                        </a>
+                        <a href="{% url 'main-home' %}#aboutUs" style="text-decoration: none;">  
+                            <li>About Us</li>
+                        </a>
+                        <a href="{% url 'main-home' %}#contactUs" style="text-decoration: none;">  
+                            <li>Contact Us</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-item opd">
+                    <h4>OPD Time</h4>
+                    <p>Monday to Saturday: 10AM to 02PM</p>
+                    <p>Monday to Saturday: 05PM to 08PM</p>
+                    <p>Sunday: 11AM to 01PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2018. XYZ Hospital, Katni. All Rights Reserved.</p>
+            </div>
+        </container>
+    </footer>
+</body>
+</html> 

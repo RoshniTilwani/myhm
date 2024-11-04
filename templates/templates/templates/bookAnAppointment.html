@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="../../static/templates/bookAnAppointment.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Book Appointment</h1>
+        <a href="{% url 'main-home' %}" class="home-button">Home</a> <!-- Add this button -->
+    </header>
+
+    <form method="post">
+        {% csrf_token %}
+        
+        {{ form.patient.label_tag }} {{ form.patient }}
+        {{ form.doctor.label_tag }} {{ form.doctor }}
+
+        {{ form.date.label_tag }} {{ form.date }}
+
+        <label for="time">Available Time Slots:</label>
+        <select id="time" name="time">
+            <option value="">Select a time</option>
+        </select>
+
+        <div>
+            <label>Fees: 500 (Fixed)</label>
+        </div>
+        {{ form.payment_mode.label_tag }} {{ form.payment_mode }}
+       <br>
+       
+       <div>
+           <label>Status: Not Paid. Pay during the appointment.</label>
+        </div>
+        
+        <br>
+        {{ form.mode.label_tag }} {{ form.mode }}
+
+        <button type="submit">Book Appointment</button>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // When the doctor or date changes, fetch available time slots
+            $("#id_doctor, #id_date").change(function() {
+                var doctorId = $("#id_doctor").val();
+                var date = $("#id_date").val();
+    
+                if (doctorId && date) {
+                    $.ajax({
+                        url: "{% url 'get_available_times' %}",  // Update URL to your view
+                        data: {
+                            'doctor_id': doctorId,
+                            'date': date
+                        },
+                        success: function(data) {
+                            var $timeSelect = $("#time");
+                            $timeSelect.empty();  // Clear current options
+                            
+                            if (data.available_slots.length === 0) {
+                                // If no available slots, show "All slots booked"
+                                $timeSelect.append($('<option>').text('All slots booked').attr('value', ''));
+                            } else {
+                                // Populate available time slots
+                                $timeSelect.append($('<option>').text('Select a time').attr('value', ''));
+                                $.each(data.available_slots, function(index, value) {
+                                    $timeSelect.append($('<option>').text(value).attr('value', value));
+                                });
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+    
+    
+    
+    
+    
+</body>
+</html>

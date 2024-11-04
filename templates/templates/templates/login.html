@@ -1,0 +1,63 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Window</title>
+    <link rel="stylesheet" type="text/css" href="../../static/templates/login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>XYZ Hospital</h1>
+        <h2>Login</h2>
+
+        <div class="slider-container"> 
+            <div class="slider"></div>
+            <div class="toggle-buttons">
+                <div class="toggle-button active" id="patientButton">Patient</div>
+                <div class="toggle-button" id="doctorButton">Doctor</div>
+                <div class="toggle-button" id="staffButton">Staff</div>
+            </div>
+        </div>
+
+        {% if messages %}
+            <div class="error-messages">
+                {% for message in messages %}
+                    <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <div id="loginForm" class="form-container" style="display: block;">
+            <form action="{% url 'login' %}" method="post">
+                {% csrf_token %}
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="hidden" name="user_type" id="user_type" value="Patient"> 
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+const buttons = document.querySelectorAll('.toggle-button');
+
+buttons.forEach(button => {
+    button.onclick = () => setUserType(button.id.replace('Button', ''));
+});
+
+function setUserType(type) {
+    document.getElementById('user_type').value = type; 
+    buttons.forEach(button => {
+        button.classList.remove('active');
+    });
+    document.getElementById(type.toLowerCase() + 'Button').classList.add('active');
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../../static/templates/doctorDashboard.css">
+</head>
+<body>
+
+    <header>
+        <container style="display: flex; align-items: center;">
+            <img src="../../static/images/logo.png" alt="XYZ Hospital Logo" width="150" style="margin-left: 10px;">
+            <h1 class="hname" style="margin: 0;margin-left: -30px;">XYZ</h1>
+        </container>
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" style="text-decoration: none;">Logout</button>
+        </form>
+    </header>
+    <div class="nav" style="justify-content:space-between ;">
+        <ul>
+            <a href="{% url 'doctorDashboard' %}" style="text-decoration: none;">  
+                <li>Dashboard</li>
+            </a>
+        
+            <a href="{% url 'docMedRec' %}" style="text-decoration: none;">  
+                <li>Medical Records</li>
+            </a>
+    
+            <a href="{% url 'docApp' %}" style="text-decoration: none;">  
+                <li>Appointments</li>
+            </a>
+        
+        
+        </ul>
+</div>
+    <div class="doctor-card">
+        <h2>Doctor Dashboard</h2>
+        <div class="doctor-details">
+            <p><strong>First Name:</strong> {{ doctor.user.first_name }}</p>
+            <p><strong>Last Name:</strong> {{ doctor.user.last_name }}</p>
+            <p><strong>Position:</strong> {{ doctor.position }}</p>
+            <p><strong>Education:</strong> {{ doctor.education }}</p>
+            <p><strong>Experience:</strong> {{ doctor.experience }}</p>
+            <p><strong>Salary:</strong> ₹{{ doctor.fees }}</p>
+            <p><strong>Department:</strong> {{ doctor.department }}</p>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-appointments" onclick="location.href='{% url 'docApp' %}'">View Appointments</button>
+            <button class="btn-patients" onclick="location.href='{% url 'docMedRec' %}'">View Medical Records</button>
+        </div>
+    </div>
+ 
+</body>
+</html>

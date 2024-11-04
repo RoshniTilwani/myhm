@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #005f73;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.slider {
+    position: absolute;
+    height: 30px;
+    width: 100%; 
+    background-color: #ccc;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    left: 0;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.toggle-button {
+    cursor: pointer;
+    flex: 1;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ccc;
+    transition: background-color 0.3s;
+}
+
+.toggle-button.active {
+    background-color: #005f73;
+    color: white;
+}
+
+.form-container {
+    display: none; 
+}
+h1{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #005f73;
+    color: #fff;
+    margin-left: -30px;
+   margin-right: -30px;
+   margin-top: -28px;
+}

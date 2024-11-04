@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Patient Records</title>
+    <link rel="stylesheet" type="text/css" href="../../static/templates/docMedRec.css">
+</head>
+<body>
+    <header>
+        <h1>Patient Records(Under Me)</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'doctorDashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'docMedRec' %}">Patient Records</a></li>
+                <li><a href="{% url 'docApp' %}">My Appointments</a></li>
+                <li><form action="{% url 'logout' %}" method="post">{% csrf_token %}<button type="submit">Logout</button></form></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search-bar">
+        <form method="GET" action="{% url 'docMedRec' %}">
+            <input type="text" name="search" placeholder="Search patient by name or ID or diagnosis" value="{{ request.GET.search }}" style="width:500px;">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div class="patient-records">
+        <h2>Patients Treated</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Diagnosis</th>
+                    <th>Medications</th>
+                    <th>Treatment</th>
+                    <th>Test Result</th>
+                    <th>Follow-Up Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in records %}
+                    <tr>
+                        <td>{{ record.patient.first_name }} {{ record.patient.last_name }}</td>
+                        <td>{{ record.diagnosis }}</td>
+                        <td>{{ record.prescription }}</td>
+                        <td>{{ record.treatment_plan }}</td>
+                        <td>{{ record.test_result }}</td>
+                        <td>{{ record.record_date }}</td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="6">No medical records found.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Appointments</title>
+    <link rel="stylesheet" type="text/css" href="../../static/templates/docApp.css">
+</head>
+<body>
+    <header>
+        <h1>Doctor's Appointments</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'doctorDashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'docMedRec' %}">Patient Records</a></li>
+                <li><a href="{% url 'docApp' %}">Appointments</a></li>
+                <li>
+                    <form action="{% url 'logout' %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit">Logout</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="appointment-filter">
+        <form method="get">
+            {{ form.as_p }}
+            <button type="submit">Filter</button>
+        </form>
+    </div>
+
+    <div class="appointments">
+        <h2>Appointments for {{ form.date.value|default_if_none:"today" }}</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Time</th>
+                    <th>Fees</th>
+                    <th>Payment Mode</th>
+                    <th>Status</th>
+                    <th>Mode</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for appointment in appointments %}
+                    <tr>
+                        <td>{{ appointment.patient.first_name }} {{ appointment.patient.last_name }}</td>
+                        <td>{{ appointment.time }}</td>
+                        <td>{{ appointment.fees }}</td>
+                        <td>{{ appointment.payment_mode }}</td>
+                        <td>{{ appointment.status }}</td>
+                        <td>{{ appointment.mode }}</td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="6">No appointments found for this date.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

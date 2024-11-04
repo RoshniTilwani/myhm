@@ -1,0 +1,89 @@
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Record</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../static/templates/medicalRecord.css">
+</head>
+<body>
+    <header>
+        <container style="display: flex; align-items: center;">
+            <img src="../../static/images/logo.png" alt="XYZ Hospital Logo" width="150" style="margin-left: 10px;">
+            <h1 class="hname" style="margin: 0;margin-left: -30px;color: white;">XYZ</h1>
+        </container>
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" style="text-decoration: none;">Logout</button>
+        </form>
+
+    </header>
+    <div class="nav" style="justify-content: space-between;">
+        <ul>
+            <a href="{% url 'main-home' %}" style="text-decoration: none;">  
+                <li>Home</li>
+            </a>
+        
+            <a href="{% url 'medicalRecord' %}" style="text-decoration: none;">  
+                <li>Medical Record</li>
+            </a>
+        
+            <li>
+                <a href="#" style="text-decoration: none;color: white">Specialities</a>
+                <ul class="dropdown">
+                    {% for department in departments %}
+                        <li><a href="{% url 'dept_detail' department.pk %}">{{ department.dept_name }}</a></li>
+                    {% empty %}
+                        <li>No departments available.</li>
+                    {% endfor %}
+                </ul>
+            </li>
+    
+        
+            <a href="{% url 'main-home' %}#aboutUs" style="text-decoration: none;">  
+                <li>About Us</li>
+            </a>
+        
+            <a href="{% url 'main-home' %}#contactUs" style="text-decoration: none;">  
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        <img src="../../static/images/inss.png" alt="Heatlh First" width="200px">
+    </div>
+
+    <div class="medical-record">
+        <h2>Medical Record</h2>
+        <p><strong>Patient Age:</strong> {{ age }} years</p> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Doctor Name</th>
+                    <th>Diagnosis</th>
+                    <th>Medications</th>
+                    <th>Treatment</th>
+                    <th>Test Result</th>
+                    <th>Follow-Up Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in records %}
+                <tr>
+                    <td>{{ record.doctor.first_name }} {{ record.doctor.last_name }}</td> 
+                    <td>{{ record.diagnosis }}</td>
+                    <td>{{ record.prescription }}</td> 
+                    <td>{{ record.treatment_plan }}</td> 
+                    <td>{{ record.test_result }}</td>
+                    <td>{{ record.record_date }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="6">No medical records found for this patient.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

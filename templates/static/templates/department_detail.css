@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73;
+    padding: 10px 100px;
+    position: relative;
+}
+
+.hname {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.auth-buttons {
+    position: absolute;
+    right: 100px;
+    top: -17px;
+    display: flex;
+    gap: 15px;
+}
+
+button.login-btn, button.signup-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-top: 50px;
+}
+
+button.signup-btn {
+    background-color: #007bff;
+}
+
+button.login-btn:hover {
+    background-color: #218838;
+}
+
+button.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 255, 242);
+    gap: 0px;
+    margin-top: 60px; 
+}
+
+.top1, .top2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: -30px;
+    padding: 38px
+}
+
+.top1 svg, .top2 svg {
+    color: #fff;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #007d88;
+    /* padding: 0px; */
+    align-items: center;
+    padding-top: 10px;
+padding-bottom: -5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 41px;
+    margin-top: auto;
+    align-self: center;
+    padding-right: 163px;
+}
+ul li {
+    color: white;
+    cursor: pointer;
+    padding: 10px 0px;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #004d61;
+}
+
+
+form.example {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 500px;
+    margin-top: -20px;
+    margin-left: 915px;
+}
+form.ex{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 500px;
+    margin-left: 520px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007d88;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004d61;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header-image {
+    width: 100%;
+    max-height: 400px;
+    margin-top: -13px;
+}
+
+.overlay {
+    position: absolute;
+    bottom : 10px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    padding: 5px 15px;
+    color: black;
+    background-color: rgba(255, 255, 255, .5);; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.doctor-list {
+    display: block;
+    /* text-align: center; */
+    /* justify-content: flex-start; */
+    padding: 20px;
+    /* max-width: 1200px; */
+
+}
+
+.doctor {
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+}
+.doctor-info {
+    flex: 1;
+}
+
+.doctor-info h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.doctor-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.doctor-info .position {
+    font-weight: bold;
+    color: #333;
+}
+
+.doctor-info .experience, .doctor-info .fees {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.appointment-button {
+    padding: 10px 20px;
+    background-color: #005f73;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.appointment-button:hover {
+    background-color: #005f73;
+}
+
+.procedures-list{
+    display: block;
+    padding: 20px;
+}
+
+.Procedure {
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+    height:70px;
+}
+
+.Procedure-info {
+    flex: 1;
+}
+
+.Procedure-info h3 {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom:20px;
+}
+
+.Procedure-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.Procedure-info .fees {
+    margin-top: 10px;
+    font-size: 14px;
+}
+container.doctorinfo{
+    align-items: center;
+    background-color:blueviolet ;
+}
+button.appointment-button{
+    margin-left: 30%;
+}

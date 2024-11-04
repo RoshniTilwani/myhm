@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73;
+    padding: 20px 100px;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #004d61;
+}
+
+/* Search Bar Styles */
+.appointment-filter {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-end; /* Align items to the right */
+    padding: 20px; /* Padding around the filter section */
+}
+
+.appointment-filter form {
+    display: flex; /* Use flexbox for the form elements */
+    gap: 10px; /* Space between input and button */
+}
+
+.appointment-filter input[type="date"] {
+    padding: 10px; /* Padding for input */
+    font-size: 16px; /* Font size for input */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Rounded corners for input */
+}
+
+.appointment-filter button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007d88; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.appointment-filter button:hover {
+    background-color: #004d61; /* Darker shade on hover */
+}
+
+/* Appointments Table */
+.appointments {
+    max-width: 1000px;
+    margin: 50px auto; /* Center the appointments section */
+    padding: 20px;
+    background-color: white; /* Background color for appointments */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.appointments h2 {
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Margin below heading */
+    color: #333; /* Color for heading */
+}
+
+table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* No space between borders */
+    margin-bottom: 20px; /* Margin below table */
+}
+
+table thead {
+    background-color: #333; /* Header background color */
+    color: white; /* Header text color */
+}
+
+table th, table td {
+    padding: 12px 15px; /* Padding for table cells */
+    text-align: left; /* Left-align text */
+    border-bottom: 1px solid #ddd; /* Bottom border for cells */
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007d88; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+    background-color: #004d61; /* Darker shade on hover */
+}

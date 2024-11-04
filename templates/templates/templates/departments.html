@@ -1,0 +1,33 @@
+<div class="header" style="background-image: url('{{ dept.background_image }}');">
+    <div class="overlay">
+        <h1>{{ dept.dept_name }}</h1>
+    </div>
+</div>
+
+<div class="doctor-list">
+    <h2>Our Team of Experts</h2>
+    {% for doctor in doctors %}
+    <div class="doctor">
+        <div class="doctor-info">
+            <h3>{{ doctor.name }}</h3>
+            <p class="position">{{ doctor.position }}</p>
+            <p class="education">{{ doctor.education }}</p>
+            <p class="experience">Experience: {{ doctor.experience }}</p>
+            <p class="fees">Fees: ₹{{ doctor.fees }}</p>
+        </div>
+        <button class="appointment-button">Book Appointment</button>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="procedures-list">
+    <h2>Medical Procedures for {{ dept.dept_name }}</h2>
+    {% for procedure in procedures %}
+    <div class="Procedure">
+        <div class="Procedure-info">
+            <h3>{{ procedure.name }}</h3>
+            <p class="fees">Fees: ₹{{ procedure.fees }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

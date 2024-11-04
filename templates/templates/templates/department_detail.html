@@ -1,0 +1,124 @@
+<!-- remove -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ dept.dept_name }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../static/templates/home.css">
+</head>
+<body>
+    <header>
+        <container style="display: flex; align-items: center;">
+            <img src="../../static/images/logo.png" alt="XYZ Hospital Logo" width="150" style="margin-left: 10px;">
+            <h1 class="hname" style="margin: 0;margin-left: -30px;">XYZ</h1>
+        </container>
+        <div class="auth-buttons">
+            {% if user.is_authenticated and user.user_type == 'patient' %}
+                <button class="profile-btn">
+                    <a href="{% url 'patientDashboard' %}" style="text-decoration: none;">
+                        <i class="fa fa-user"></i> Profile
+                    </a>
+                </button>
+                <form action="{% url 'logout' %}" method="post">
+                    {% csrf_token %}
+                    <button type="submit" style="text-decoration: none;">Logout</button>
+                </form>
+            {% else %}
+                <button class="login-btn">
+                    <a href="{% url 'login' %}" style="text-decoration: none;">Login</a>
+                </button>
+                <button class="signup-btn">
+                    <a href="{% url 'registerAsPatient' %}" style="text-decoration: none;">Sign Up</a>
+                </button>
+            {% endif %}
+        </div>
+        <div class="top">
+            <div class="top1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+                <p>Katni(M.P.)</p>
+            </div>
+            <div class="top2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                </svg>
+                <p>123456789</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav" style="justify-content: space-between;">
+        <ul>
+            <li>
+                <a href="{% url 'main-home' %}" style="text-decoration: none;">Home</a>
+            </li>
+            <li>
+                <a href="{% url 'medicalRecord' %}" style="text-decoration: none;">Medical Record</a>
+            </li>
+            <li>
+                <a href="#" style="text-decoration: none; color: white;">Specialities</a>
+                <ul class="dropdown">
+                    {% for department in departments %}
+                        <li><a href="{% url 'dept_detail' department.pk %}" style="text-decoration: none;">{{ department.dept_name }}</a></li>
+                    {% empty %}
+                        <li>No departments available.</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <a href="{% url 'main-home' %}#aboutUs" style="text-decoration: none;">About Us</a>
+            </li>
+            <li>
+                <a href="{% url 'main-home' %}#contactUs" style="text-decoration: none;">Contact Us</a>
+            </li>
+        </ul>
+        <!-- <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form> -->
+        <img src="../../static/images/inss.png" alt="Heatlh First" width="200px">
+    </div>
+
+    <!-- Add your content for department details here -->
+    <div class="header" style="background-image: url('{{ dept.background_image }}');">
+        <div class="overlay">
+            <h1>{{ dept.dept_name }}</h1>
+        </div>
+    </div>
+
+    <h2>Our Team of Experts</h2>
+    <div class="doctor-list">
+        {% for doctor in doctors %}
+            <container class="doctor">
+                <container class="doctor-info">
+                    <h3>{{ doctor.full_name }}</h3>
+                    <p class="position">{{ doctor.position }}</p>
+                    <p class="education">{{ doctor.education }}</p>
+                    <p class="experience">Experience: {{ doctor.experience }}</p>
+                    <p class="fees">Fees: ₹{{ doctor.fees }}</p>
+                </container>
+                <button class="appointment-button" >Book Appointment</button>
+            </container>
+        {% empty %}
+            <p>No doctors available in this department.</p>
+        {% endfor %}
+        </div>
+
+    <container class="procedures-list">
+        <h2>Medical Procedures for {{ dept.dept_name }}</h2>
+        {% for procedure in procedures %}
+            <div class="procedure">
+                <div class="procedure-info">
+                    <h3>{{ procedure.name }}</h3>
+                    <p class="fees">Fees: ₹{{ procedure.fees }}</p>
+                </div>
+            </div>
+        {% empty %}
+            <p>No procedures available for this department.</p>
+        {% endfor %}
+    </container>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Success Message Styles */
+.success-message {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.success-message h1 {
+    color: #28a745; /* Success color */
+}
+
+.success-message a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.success-message a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

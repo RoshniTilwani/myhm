@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73;
+    padding: 50px 100px;
+}
+
+.hname {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+.staff-card {
+        background-color: #f9f9f9; 
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        width: 100%;
+        margin-top: 6%;
+        text-align: left;
+        margin-left: 34%
+}
+
+.staff-card h2 {
+    text-align: center;
+    font-size: 37px;
+    background-color:  #0e2be4;
+    color: white;
+    margin-bottom: 20px;
+    font-family: cursive;
+    margin-top: 0px;
+}
+
+.staff-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333; 
+}
+
+.staff-details p strong {
+    color: #005f73;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%;
+}
+
+.btn-history {
+    background-color: #007d88;
+    color: white;
+}
+
+.btn-history:hover {
+    background-color: #005f73; 
+}
+
+.btn-manage {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-manage:hover {
+    background-color: #138496;
+}
+
+form button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover ,button.profile-btn:hover{
+    background-color: rgb(123, 5, 5);
+}
