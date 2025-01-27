@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,6 @@ body {
     line-height: 1.5;
 }
 
-/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -40,85 +39,82 @@ nav ul li a:hover {
     background-color: #004d61;
 }
 
-/* Search Bar Styles */
 .appointment-filter {
-    display: flex; /* Use flexbox for alignment */
-    justify-content: flex-end; /* Align items to the right */
-    padding: 20px; /* Padding around the filter section */
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 20px; 
 }
 
 .appointment-filter form {
-    display: flex; /* Use flexbox for the form elements */
-    gap: 10px; /* Space between input and button */
+    display: flex;
+    gap: 10px; 
 }
 
 .appointment-filter input[type="date"] {
-    padding: 10px; /* Padding for input */
-    font-size: 16px; /* Font size for input */
-    border: 1px solid #ccc; /* Border for input */
-    border-radius: 5px; /* Rounded corners for input */
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
 }
 
 .appointment-filter button {
-    padding: 10px 20px; /* Padding for button */
-    background-color: #007d88; /* Button color */
-    color: white; /* Button text color */
-    border: none; /* No border for button */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px 20px; 
+    background-color: #007d88; 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 .appointment-filter button:hover {
-    background-color: #004d61; /* Darker shade on hover */
+    background-color: #004d61; 
 }
 
-/* Appointments Table */
 .appointments {
     max-width: 1000px;
-    margin: 50px auto; /* Center the appointments section */
+    margin: 50px auto; 
     padding: 20px;
-    background-color: white; /* Background color for appointments */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    border-radius: 8px; /* Rounded corners */
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
 }
 
 .appointments h2 {
-    text-align: center; /* Center text */
-    margin-bottom: 20px; /* Margin below heading */
-    color: #333; /* Color for heading */
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #333; 
 }
 
 table {
-    width: 100%; /* Full width of the table */
-    border-collapse: collapse; /* No space between borders */
-    margin-bottom: 20px; /* Margin below table */
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
 }
 
 table thead {
-    background-color: #333; /* Header background color */
-    color: white; /* Header text color */
+    background-color: #333; 
+    color: white; 
 }
 
 table th, table td {
-    padding: 12px 15px; /* Padding for table cells */
-    text-align: left; /* Left-align text */
-    border-bottom: 1px solid #ddd; /* Bottom border for cells */
+    padding: 12px 15px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd;
 }
 
 table tr:hover {
-    background-color: #f1f1f1; /* Highlight row on hover */
+    background-color: #f1f1f1; 
 }
 
-/* Button Styles */
 button {
-    padding: 10px 20px; /* Padding for button */
-    background-color: #007d88; /* Button color */
-    color: white; /* Button text color */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor */
+    padding: 10px 20px; 
+    background-color: #007d88; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 button:hover {
-    background-color: #004d61; /* Darker shade on hover */
+    background-color: #004d61; 
 }

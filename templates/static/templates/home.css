@@ -263,7 +263,6 @@ h3 {
 
 .statistics {
     display: grid;
-    /* margin:30% */
     grid-template-columns: repeat(3, .8fr);
     gap: 10px;
     margin-left: 100px;;

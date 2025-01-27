@@ -275,7 +275,7 @@ h3 {
 }
 
 .dropdown {
-    display: none; /* Hide the dropdown by default */
+    display: none; 
     position: absolute;
     background-color: white;
     color: #000000;
@@ -288,7 +288,7 @@ h3 {
 }
 
 .nav > ul > li:hover .dropdown {
-    display: block; /* Show dropdown on hover */
+    display: block; 
 }
 a{
     color:white ;
@@ -316,12 +316,12 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../../static/images/dept_bgimg.png'); /* Add background image */
-    background-size: cover; /* Cover the entire header */
-    background-position: center; /* Center the image */
+    background-image: url('../../static/images/dept_bgimg.png'); 
+    background-size: cover; 
+    background-position: center; 
     padding: 10px 100px;
     position: relative;
-    color: white; /* Make text color white for better contrast */
+    color: white; 
     height: 276px;
     justify-content: center;
 }

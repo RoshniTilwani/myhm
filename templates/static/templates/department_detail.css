@@ -80,7 +80,6 @@ button.signup-btn:hover {
     display: flex;
     justify-content: center;
     background-color: #007d88;
-    /* padding: 0px; */
     align-items: center;
     padding-top: 10px;
 padding-bottom: -5px;
@@ -166,11 +165,7 @@ form button:hover {
 
 .doctor-list {
     display: block;
-    /* text-align: center; */
-    /* justify-content: flex-start; */
     padding: 20px;
-    /* max-width: 1200px; */
-
 }
 
 .doctor {

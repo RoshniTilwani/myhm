@@ -37,25 +37,6 @@ def home(request):
     departments = Dept.objects.all()  
     return render(request, 'templates/home.html', {'departments': departments})
 
-# @login_required(login_url='login')
-# def docMedRec(request):
-#     user = request.user
-#     search_query = request.GET.get('search', '')
-
-#     records = MedicalRecord.objects.filter(
-#         doctor=user
-#     ).filter(
-#         Q(patient__first_name__icontains=search_query) |
-#         Q(patient__last_name__icontains=search_query) |
-#         Q(patient__username__icontains=search_query)
-#     ).select_related('patient')
-
-#     return render(request, 'templates/docMedRec.html', {
-#         'records': records,
-#         'search_query': search_query  
-#     })
-
-
 @login_required
 def doctorDashboard(request):
     try:
@@ -230,8 +211,6 @@ def login_view(request):
                     return redirect('patientDashboard')
                 elif user_type == 'doctor':
                     return redirect('doctorDashboard')
-                elif user_type == 'admin':
-                    return redirect('adminDashboard')
                 elif user_type == 'staff':
                     return redirect('staffDashboard')
             else:
@@ -333,3 +312,22 @@ class PatientRecordView(SingleTableMixin, FilterView):
         doctor = self.request.user  
         queryset = queryset.filter(doctor=doctor)
         return queryset  
+
+
+# @login_required(login_url='login')
+# def docMedRec(request):
+#     user = request.user
+#     search_query = request.GET.get('search', '')
+
+#     records = MedicalRecord.objects.filter(
+#         doctor=user
+#     ).filter(
+#         Q(patient__first_name__icontains=search_query) |
+#         Q(patient__last_name__icontains=search_query) |
+#         Q(patient__username__icontains=search_query)
+#     ).select_related('patient')
+
+#     return render(request, 'templates/docMedRec.html', {
+#         'records': records,
+#         'search_query': search_query  
+#     })
